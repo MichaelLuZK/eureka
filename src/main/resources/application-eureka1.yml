@@ -4,7 +4,7 @@ eureka:
       defaultZone: http://eureka2:8762/eureka/
 #    register-with-eureka: false
   server:
-    enable-self-preservation: false
+    enable-self-preservation: false #开发环境下关闭，生产环境注掉
 spring:
   application:
     name: eureka
